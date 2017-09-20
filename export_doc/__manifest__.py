@@ -18,7 +18,7 @@
     "depends": [
         "web",
     ],
-    "external_dependencies": {"python": ['python-docx'], "bin": []},
+    "external_dependencies": {"python": ['docx'], "bin": []},
     "data": [
     ],
     "qweb": [
