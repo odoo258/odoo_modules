@@ -28,12 +28,12 @@ Developer
 ------------
 
 * Ilyas <railrash@gmail.com>
-* `My works <ilyas.pw>`__
+* `My works <http://ilyas.pw>`__
 
 
 Further information
 ===================
 
-`Site <erpopen.ru>`__
+`Site <http://erpopen.ru>`__
 
 Tested on Odoo 10.0 ffba5c688ff74a0630f9f70be1d7760a43a7deba
