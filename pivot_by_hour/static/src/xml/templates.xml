@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+    <t t-extend="PivotView.FieldSelection">
+        <t t-jquery='li:has(> a[t-att-data-interval]):first' t-operation="before">
+            <li t-att-data-field="field[0]"><a href="#" t-att-data-interval="'hour'">Hour</a></li>
+        </t>
+    </t>
+</template>

@@ -14,12 +14,12 @@ Install python-docx library:
 How to use
 ==========
 
-* Open any tree view.
-* Select rows to export.
-* Press [Action] -> [Export].
-* Select DOC radio button.
-* Add fields for export
-* Save created doc document somewhere.
+    *Open any tree view.
+    *Select rows to export.
+    *Press [Action] -> [Export].
+    *Select DOC radio button.
+    *Add fields for export
+    *Save created doc document somewhere.
 
 Credits
 =======

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 {
-    "name": """Doc Export""",
-    "summary": """Export tables in doc or docx format""",
+    "name": """Pivot by hour""",
+    "summary": """Expand dates by hour""",
     "category": "Tools",
     "images": ['images/main.png'],
     "version": "1.0.0",
@@ -16,7 +16,6 @@
     "depends": [
         "web",
     ],
-    "external_dependencies": {"python": ['docx'], "bin": []},
     "data": [
     ],
     "qweb": [
