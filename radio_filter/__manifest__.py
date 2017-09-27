@@ -1,19 +1,29 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Radio filter',
-    'version': '1.0.0',
-    'summary': """Radio button filter option""",
-    'description': '''Radio button filter option''',
-    'category': 'Tools',
-    'depends': ['base', 'web'],
-    'data': ['views/views.xml'],
-    'qweb': ['static/src/xml/templates.xml'],
-    'license': 'LGPL-3',
-    'demo': [],
-    'installable': True,
-    'auto_install': False,
-    'private_category': False,
-    'application': False,
+    "name": """Radio filter""",
+    "summary": """Radio button selection in filter""",
+    "category": "Tools",
+    "images": ['images/main.png'],
+    "version": "1.0.0",
+    "application": False,
+    "author": "Ilyas",
+    "support": "railrash@gmail.com",
+    "website": "http://erpopen.ru",
+    "license": "LGPL-3",
+    "price": 50.00,
+    "currency": "EUR",
+    "depends": [
+        "web",
+    ],
+    "data": [
+    ],
+    "qweb": [
+    ],
+    "demo": [
+    ],
+    "pre_init_hook": None,
+    "post_init_hook": None,
+    "auto_install": False,
+    "installable": True,
 }
-
