@@ -21,12 +21,16 @@ odoo.define("radio_filter.radio_filter", function (require) {
             if ($(e.target).is(".radioselect")) {
                 this.clear_circle(e);
                 if ($(e.target).parents('.o_filters_menu').length){
-                    $("span.fa-filter").siblings('.o_facet_remove').click();
+                    for (var i = $("div.o_searchview .fa-filter ~ .o_facet_remove").length-1; i >= 0; i--) {
+                        $("div.o_searchview .fa-filter ~ .o_facet_remove")[i].click();
+                    }
                     $(e.target).removeClass("fa-circle-o");
                     $(e.target).addClass("fa-circle")
                 }
                 if ($(e.target).parents('.o_group_by_menu').length){
-                    $("span.fa-bars").siblings('.o_facet_remove').click()
+                    for (var i = $("div.o_searchview .fa-bars ~ .o_facet_remove").length-1; i >= 0; i--) {
+                        $("div.o_searchview .fa-bars ~ .o_facet_remove")[i].click();
+                    }
                     $(e.target).removeClass("fa-circle-o");
                     $(e.target).addClass("fa-circle")
                 }
