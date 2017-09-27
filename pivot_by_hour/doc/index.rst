@@ -12,8 +12,8 @@ Just install module
 How to use
 ==========
 
-    *Open any pivot view.
-    *Select any datetime filed and select 'Hour' criteria
+* Open any pivot view.
+* Select any datetime filed and select 'Hour' criteria
 
 Credits
 =======

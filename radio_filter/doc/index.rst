@@ -12,9 +12,9 @@ Just install module
 How to use
 ==========
 
-    *Open any view with filter.
-    *Open [Filters] or [Group by menu].
-    *Use circles for radio selection
+* Open any view with filter.
+* Open [Filters] or [Group by menu].
+* Use circles for radio selection
 
 Credits
 =======
