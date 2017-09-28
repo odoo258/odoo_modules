@@ -28,7 +28,7 @@ Developer
 ---------
 
 * Ilyas <railrash@gmail.com>
-* `My works <https://ilyas.pw>`__
+* `My works <http://ilyas.pw>`__
 
 
 Further information
