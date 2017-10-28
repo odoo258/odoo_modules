@@ -23,6 +23,7 @@ odoo.define('count.menu', function(require) {
                 _.each(result, function(el) {
                     var m = {'needaction_counter': el.value};
                     var $item = self.$secondary_menus.find('a[data-menu="' + el.menu_id + '"]');
+                    $item.find('.badge').remove();
                     $item.append(QWeb.render("Menu.needaction_counter", {widget: m}));
                 });
             });
