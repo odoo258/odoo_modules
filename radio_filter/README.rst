@@ -1,10 +1,8 @@
-===================
- Tree double click
-===================
+==============
+ Radio filter
+==============
 
-Double click to open records in tree view instead of one click.
-Useful to copy text from tree view to clipboard.
-Works for all tree views.
+Use radio buttons to select filters and groups
 
 Install
 =======
@@ -14,8 +12,9 @@ Just install module
 How to use
 ==========
 
-* Open any tree view.
-* Click - nothing. Double click - open record.
+* Open any view with filter.
+* Open [Filters] or [Group by menu].
+* Use circles for radio selection
 
 Credits
 =======
