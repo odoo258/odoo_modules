@@ -1,25 +1,29 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'tree_dblclick',
-    'version': '1.1',
-    'category': 'custom',
-    'sequence': 200,
-    'summary': 'tree_dblclick',
-    'description': """
-    """,
-    'website': '',
-    'images': [
+    "name": """Tree double click""",
+    "summary": """Double click to open records in tree view""",
+    "category": "Tools",
+    "images": ['images/main.png'],
+    "version": "1.0.0",
+    "application": False,
+    "author": "Ilyas",
+    "support": "railrash@gmail.com",
+    "website": "http://erpopen.ru",
+    "license": "LGPL-3",
+    "price": 30.00,
+    "currency": "EUR",
+    "depends": [
+        "web",
     ],
-    'depends': [
-        'crm',
+    "data": [
     ],
-    'data': [
-        'templates.xml'
+    "qweb": [
     ],
-    'qweb': [
+    "demo": [
     ],
-    'installable': True,
-    'application': True,
-    'auto_install': False,
+    "pre_init_hook": None,
+    "post_init_hook": None,
+    "auto_install": False,
+    "installable": True,
 }
