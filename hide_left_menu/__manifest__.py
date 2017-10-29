@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 
 {
-    "name": """Need action counters""",
-    "summary": """Custom need action counters""",
+    "name": """Hide left menu""",
+    "summary": """Hide left menu""",
     "category": "Tools",
     "images": ['images/main.png'],
-    "version": "1.0.0",
-    "application": False,
+    "version": "10.0.1",
     "author": "Ilyas",
     "support": "railrash@gmail.com",
     "website": "http://erpopen.ru",
@@ -17,6 +16,7 @@
         "web",
     ],
     "data": [
+        'views/webclient_templates.xml',
     ],
     "qweb": [
     ],
