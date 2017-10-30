@@ -13,11 +13,8 @@
     "license": "LGPL-3",
     "price": 30.00,
     "currency": "EUR",
-    "depends": [
-        "web",
-    ],
-    "data": [
-    ],
+    "depends": ["web"],
+    "data": ['templates.xml'],
     "qweb": [
     ],
     "demo": [
